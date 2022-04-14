@@ -129,3 +129,23 @@ name {
 span.highlight {
   background-color: #ffffd0;
 }
+
+.link-button {
+  padding-top: 3px; 
+  padding-bottom: 3px; 
+  padding-left: 5.5px; 
+  padding-right: 5.5px; 
+  background-color: rgb(236, 236, 236); 
+  border-radius: 4px; 
+  text-decoration: None; 
+  color: black;
+}
+
+.link-button:hover {
+  background-color: rgb(211, 211, 211); 
+  color: black;
+}
+
+.highlighted {
+  background-color: rgb(255, 255, 208);
+}
