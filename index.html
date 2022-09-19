@@ -73,6 +73,39 @@
           <tr onmouseout="nerfsuper_stop()" onmouseover="nerfsuper_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
+                <img src='images/polyphy.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function nerfsuper_start() {
+                  document.getElementById('nerfsuper_image').style.opacity = "1";
+                }
+
+                function nerfsuper_stop() {
+                  document.getElementById('nerfsuper_image').style.opacity = "0";
+                }
+                nerfsuper_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+							<a href="data/publications/Hari_Prasad_PolyPhy_GSoC_2022_poster.pdf">
+                <papertitle>Descrete graph extraction from simulated scalar fields</papertitle>
+              </a>
+              <br>
+              <strong>Hari Prasad</strong>
+              <a href="https://elek.pub/">Oskar Elek</a>, 
+              <a href="">Farhanul Hasan</a>
+              <br>
+              <em>UC Santa Cruz Open Source Symposium</em>, 2022  
+              <br>
+              <p></p>
+              <p>Part of PolyPhy, a python implementation of PolyPhorm which uses the Monte Carlo Physarum Machine (MCPM) algorithm inspired by the foraging behavior of Physarum polycephalum 'slime mold', in order to analyze intergalactic gas and dark matter filaments together known as the cosmic web. The project focuses on two methodologies, one using a custom graph extraction algorithm based on an agent-based approach. The second method utilizes the TTK-Paraiew Library to develop a pipeline for graph extraction and visualization using the Morse Smale Complex. The extracted graph can be used to understand the geometry and topology of the scalar field. The graph extraction algorithm will directly impact the users of the library, making it easier for them to analyze the output and make direct queries from the extracted graph. 
+                </p>
+            </td>
+          </tr>
+
+          <tr onmouseout="nerfsuper_stop()" onmouseover="nerfsuper_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
                 <img src='images/l_unet.png' width="160">
               </div>
               <script type="text/javascript">
@@ -241,7 +274,7 @@
             <br>
             <strong>Hari Prasad</strong>,
             <br>
-            <em>Arxiv</em> / <em>Github</em>, 2021 
+            <em>Arxiv</em> / <em>Github</em>, 2021
             <br>
             <p></p>
             <p>A comparison of MLP, LSTM, Bi-LSTM and CNN was carried out. The final model was selected after the comparison to
